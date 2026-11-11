@@ -1,22 +1,77 @@
+<img src="https://raw.githubusercontent.com/Among-Terminal/among/main/docs/media/logo.png" width="120" alt="Among Terminal logo">
+
 # Awesome Among Terminal
 
-A community list of plugins and other resources for [Among Terminal](https://github.com/Among-Terminal/among). Add links to your own work through a pull request. See the [Among Terminal site](https://among-terminal.github.io/) for application documentation.
+A community list of plugins and other resources for Among Terminal.
 
-## Official
+[Website](https://among-terminal.github.io) | [Among Terminal repository](https://github.com/Among-Terminal/among) | [Install](https://among-terminal.github.io/install/) | [Plugin guide](https://among-terminal.github.io/plugins/) | [Write a plugin](https://github.com/Among-Terminal/among-plugin-template)
 
-- [among-plugins](https://github.com/Among-Terminal/among-plugins) contains the [official plugins](https://among-terminal.github.io/plugins/#installing-official-plugins):
-  - `clock` shows local time in the application footer.
-  - `system-status` shows CPU, memory and root filesystem usage in the header.
-  - `pane-pwd` shows each pane's reported directory in its footer.
-- [among-plugin-template](https://github.com/Among-Terminal/among-plugin-template) is the starting template for plugin authors, with an author guide, API reference and release instructions.
+## Contents
 
-## Community plugins
+- [Plugins](#plugins)
+- [Other resources](#other-resources)
+- [Before you install](#before-you-install)
+- [Add yours](#add-yours)
+
+## Plugins
+
+Plugins can show status in the window, workspace, sidebar and panes, read granted terminal context and system metrics, or contribute to notifications.
+
+The [plugin template](https://github.com/Among-Terminal/among-plugin-template) is the starting point for authors, with an author guide, API reference and release instructions.
+
+### Time and date
 
 | Plugin | What it shows or does | Access it asks for | Repository |
 | --- | --- | --- | --- |
+| `clock` (official) | Local time in the application footer. | Status content | [Among-Terminal/among-plugins](https://github.com/Among-Terminal/among-plugins) |
+
 <!-- Example only. Replace the placeholders when adding a real entry.
 | Example plugin | Describe what it shows or does. | Required: list access; optional: list access or none. | [owner/repository](https://github.com/owner/repository) |
 -->
+
+### System status
+
+| Plugin | What it shows or does | Access it asks for | Repository |
+| --- | --- | --- | --- |
+| `system-status` (official) | CPU, memory and root filesystem usage in the header. | Status content and system metrics | [Among-Terminal/among-plugins](https://github.com/Among-Terminal/among-plugins) |
+
+### Directory and project context
+
+| Plugin | What it shows or does | Access it asks for | Repository |
+| --- | --- | --- | --- |
+| `pane-pwd` (official) | Each pane's reported directory in its footer. | Status content, terminal identifiers and directories | [Among-Terminal/among-plugins](https://github.com/Among-Terminal/among-plugins) |
+
+### Notifications
+
+Plugins can produce events, contribute text and controls, or provide delivery channels.
+
+#### Event producers
+
+| Plugin | What it shows or does | Access it asks for | Repository |
+| --- | --- | --- | --- |
+
+No entries yet.
+
+#### Controls
+
+| Plugin | What it shows or does | Access it asks for | Repository |
+| --- | --- | --- | --- |
+
+No entries yet.
+
+#### Delivery channels
+
+| Plugin | What it shows or does | Access it asks for | Repository |
+| --- | --- | --- | --- |
+
+No entries yet.
+
+### Other
+
+| Plugin | What it shows or does | Access it asks for | Repository |
+| --- | --- | --- | --- |
+
+No entries yet.
 
 ## Other resources
 
