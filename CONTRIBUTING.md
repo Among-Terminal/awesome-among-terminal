@@ -2,7 +2,7 @@
 
 ## Add a plugin
 
-Open a pull request that adds one plugin to the Community plugins table in [README.md](README.md). Keep entries in alphabetical order by plugin name. Use this row format:
+Open a pull request that adds one plugin to a category in [README.md](README.md). Choose the category that fits what the plugin does, or propose a new category in the pull request. For notifications, choose Event producers, Controls or Delivery channels. Keep official entries first, with official and community entries each in alphabetical order by plugin name within their category. Use this row format:
 
 ```markdown
 | Plugin name | One sentence about what it shows or does. | Required: list access; optional: list access or none. | [owner/repository](https://github.com/owner/repository) |
@@ -20,6 +20,6 @@ Replace the placeholders with your plugin's details. Describe access in plain la
 
 ## Update or remove an entry
 
-Open a pull request that edits or removes the row. Explain what changed or why the entry should be removed. Keep updated entries in alphabetical order. To report a plugin that no longer installs or misbehaves, use the broken-entry issue template.
+Open a pull request that edits or removes the row. Explain what changed or why the entry should be removed. Keep official entries first and preserve alphabetical order within each group in the category. To report a plugin that no longer installs or misbehaves, use the broken-entry issue template.
 
 Maintainers may remove entries that stop working or mislead users.
